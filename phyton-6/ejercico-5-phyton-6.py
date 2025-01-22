@@ -20,9 +20,11 @@ print("4 - Salir del programa")
 
 x = int(input("Elige una opción de las cuatro: "))
 
-while x != 1 or x != 2 or x != 3 or x != 4 :
-    print("ups")
+while x != 1 and x != 2 and x != 3 and x != 4 :
     x = int(input("Esa no es ninguna de las cuatro opciones, vuelve a introducir el número: "))
+print("Perfecto!!!")
+
+
 if x == 1 :
     print(n1 + n2)
 elif x == 2 :
